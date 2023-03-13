@@ -1,0 +1,97 @@
+/* General */
+
+* {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+html {
+  font-family: "Oswald", sans-serif;
+}
+/* HEADER */
+header {
+  border: 5px solid black;
+  display: flex;
+  background-color: #f5d9e4;
+  height: 300px;
+}
+
+header div {
+  margin: auto 0 auto 10px;
+  border: 2px solid black;
+}
+
+#logotit a:hover {
+  color: black;
+}
+
+header img {
+  border: 2px solid black;
+  display: block;
+  float: left;
+  width: 60px;
+}
+
+header h2 {
+  border: 2px solid black;
+  display: flex;
+  position: relative;
+  margin: 40px 0 0 90px;
+}
+
+/* Barra de navegación */
+
+nav {
+  display: block;
+  height: 40px;
+  position: relative;
+  border: 2px solid black;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: contents;
+  float: left;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: red;
+}
+
+/* MAIN */
+
+main {
+  background-color: #e1e3e5;
+}
+
+/* TABLAS */
+
+th {
+  text-align: left;
+}
+
+th,
+td {
+  padding: 0 20px 0 0;
+}
+
+.precio {
+  text-align: right;
+}
+
+.cant {
+  text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #f5d9e4;
+}
